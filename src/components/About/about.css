@@ -1,0 +1,159 @@
+.about-section{
+    background: #1A1A1A;
+    padding:3rem 4rem;
+}
+
+.about-container{
+    display: flex;
+
+}
+
+.blue-text{
+    color: #147DF5;
+}
+
+.right-header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 145px;
+    color:#fff;
+
+}
+
+.about-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    color: rgba(244, 244, 244, 0.5);
+}
+
+.skills-header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color:#fff;
+}
+
+.skill h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 46px;
+    color: rgba(244, 244, 244, 0.5);
+}
+.left-side{
+    width:40%;
+}
+.about-picture{
+    width:100%;
+    height:100%;
+}
+.about-picture img{
+    width: 390px;
+    height: 390px;
+    object-fit: cover;
+}
+.right-side{
+    width:60%;
+    padding: 0 4rem;
+    position: relative;
+}
+
+.skills-list{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top:3rem;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+}
+.skills-part{
+    padding-top: 4rem;
+    position: relative;
+}
+
+.about-box-1{
+    width:39px;
+    height:39px;
+    position: absolute;
+    right:0;
+}
+
+.about-box-4{
+    width:36px;
+    height:36px;
+    position: absolute;
+
+}
+
+.about-box-2{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    bottom: -75px;
+    right: 57%;
+}
+
+@media(max-width:1050px){
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-side{
+        width:100%
+    }
+    .about-picture {
+        display: flex;
+        justify-content: center;
+    }
+    .right-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+    .skills-header{
+        text-align: center;
+    }
+}
+
+@media(max-width:700px){
+    .about-section{
+        padding:3rem 1rem
+    }
+    .right-side{
+        padding:0 2rem;
+    }
+    .skills-list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:550px){
+    .right-side{
+        padding:0 1rem;
+    }
+    .skill{
+        padding-right: 2rem;
+    }
+    .about-picture img{
+    width: 334px;
+    height: 334px;
+}
+}

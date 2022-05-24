@@ -1,0 +1,32 @@
+.footer-section{
+    background: #1A1A1A;
+    padding: 6rem 3rem 1rem 3rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-right h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(244, 244, 244, 0.5);
+}
+
+.wade-text{
+    color: #f4f4f4;
+}
+
+.footer-text-center h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgba(244, 244, 244, 0.5);
+
+}

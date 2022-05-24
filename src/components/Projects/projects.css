@@ -1,0 +1,58 @@
+.project-section{
+    background: #1A1A1A;
+    padding: 7rem 0;
+}
+
+.project-container{
+    position: relative;
+}
+
+.top-project-line{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.top-project-right-line{
+    border: 5px solid #147DF5;
+    width:880px;
+
+}
+.project-carousel{
+    padding:2rem;
+    /* display: flex; */
+}
+
+.project-header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 145px;
+    text-align: center;
+    color:#fff;
+
+}
+
+.blue-text{
+    color: #147DF5;
+}
+
+.project-box-2{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 34%;
+    bottom: -99px;
+}
+
+@media(max-width:600px){
+    .project-header h1{
+        font-size:93px;
+        line-height: 100px;
+    }
+    .project-carousel{
+        padding:4rem 0;
+    }
+
+}

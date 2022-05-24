@@ -1,0 +1,85 @@
+.project-card{
+    background: #1A1A1A;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width:500px;
+    height: 500px;
+    padding:2rem;
+}
+
+.dot{
+    display: flex;
+    justify-content: flex-end;
+}
+.blue-dot{
+    border: 9px solid #147DF5;
+    border-radius: 20px;
+}
+
+.project-title h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46.9067px;
+    line-height: 89px;
+    color: #F4F4F4;
+}
+
+
+.stack p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 57px;
+    color: rgba(244, 244, 244, 0.75);
+    padding-bottom:0.7rem;
+}
+
+.project-info p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: rgba(244, 244, 244, 0.3);
+}
+
+.view a,
+.github a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-bottom-part{
+    display: flex;
+    height:30%;
+    align-items: flex-end;
+}
+.view{
+    padding-right:2rem
+}
+.git-icon{
+    width: 42px;
+    height: 26px;
+}
+.eye-icon, .git-icon{
+    padding-right:1rem;
+}
+
+@media (max-width:600px){
+    .project-card{
+        width:380px;
+    }
+}
