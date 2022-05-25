@@ -48,8 +48,8 @@
 
 @media(max-width:600px){
     .project-header h1{
-        font-size:93px;
-        line-height: 100px;
+        font-size:80px;
+        line-height: 90px;
     }
     .project-carousel{
         padding:4rem 0;

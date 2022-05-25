@@ -145,8 +145,8 @@
 
 @media(max-width: 600px){
     .contact-header h1{
-        font-size: 95px;
-        line-height: 100px;
+        font-size: 80px;
+        line-height: 90px;
     }
 
     .first-row input{
