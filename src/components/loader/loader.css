@@ -55,7 +55,7 @@
     animation: move 5s infinite;
   }
   
-  p {
+  .bar p{
     position: absolute;
     top: -68px;
     right: -161px;
@@ -84,7 +84,7 @@
 
   }
   @media(max-width:600px){
-    p {
+    .bar p{
         position: absolute;
         top: -68px;
         right: -107px;
