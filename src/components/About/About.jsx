@@ -23,11 +23,11 @@ const About = () => {
                     <div className="download-cv">
 
                     </div>
-                    <img src={BoxFour} className="about-box-4 box"/>
+                    <img src={BoxFour} className="about-box-4 box" alt="box"/>
 
                 </div>
                 <div className="right-side">
-                <img src={BoxOne} className="about-box-1 box"/>
+                <img src={BoxOne} className="about-box-1 box" alt="box"/>
                     <div className="right-header">
                         <h1><span className="blue-text">Abo</span>ut</h1>
                     </div>
@@ -62,7 +62,7 @@ const About = () => {
                                 <h4>PYTHON</h4>
                             </div>
                         </div>
-                        <img src={BoxTwo} className="about-box-2 box"/>
+                        <img src={BoxTwo} className="about-box-2 box" alt="box"/>
                         
                         
                     </div>
